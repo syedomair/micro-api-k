@@ -4,3 +4,4 @@ roles-svc/vendor
 subscrp-svc/vendor
 users-svc/vendor
 batch-tasks-svc/vendor
+gateway-svc/vendor
