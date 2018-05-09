@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/syedomair/micro-api/common"
-	testdata "github.com/syedomair/micro-api/testdata"
-	pb "github.com/syedomair/micro-api/users-svc/proto"
+	"github.com/syedomair/micro-api-k/common"
+	testdata "github.com/syedomair/micro-api-k/testdata"
+	pb "github.com/syedomair/micro-api-k/users-svc/proto"
 )
 
 func TestGetAll(t *testing.T) {

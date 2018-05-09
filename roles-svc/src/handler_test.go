@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/syedomair/micro-api/common"
-	pb "github.com/syedomair/micro-api/roles-svc/proto"
-	testdata "github.com/syedomair/micro-api/testdata"
+	"github.com/syedomair/micro-api-k/common"
+	pb "github.com/syedomair/micro-api-k/roles-svc/proto"
+	testdata "github.com/syedomair/micro-api-k/testdata"
 )
 
 func TestCreateRole(t *testing.T) {

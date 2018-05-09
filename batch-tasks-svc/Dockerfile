@@ -1,6 +1,6 @@
 FROM golang:1.9.0 as builder
 
-WORKDIR /go/src/github.com/syedomair/micro-api/batch-tasks-svc
+WORKDIR /go/src/github.com/syedomair/micro-api-k/batch-tasks-svc
 
 COPY src .
 COPY proto proto
@@ -16,7 +16,7 @@ RUN apk --no-cache add ca-certificates
 
 RUN mkdir /app
 WORKDIR /app
-COPY --from=builder /go/src/github.com/syedomair/micro-api/batch-tasks-svc/batch-tasks-svc /batch-tasks-svc
+COPY --from=builder /go/src/github.com/syedomair/micro-api-k/batch-tasks-svc/batch-tasks-svc /batch-tasks-svc
 
 EXPOSE 8180
 

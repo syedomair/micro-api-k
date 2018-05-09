@@ -13,8 +13,8 @@ import (
 
 	"github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
-	pb "github.com/syedomair/micro-api/batch-tasks-svc/proto"
-	"github.com/syedomair/micro-api/common"
+	pb "github.com/syedomair/micro-api-k/batch-tasks-svc/proto"
+	"github.com/syedomair/micro-api-k/common"
 )
 
 type Env struct {

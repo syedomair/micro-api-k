@@ -1,6 +1,6 @@
 FROM golang:1.9.0 as builder
 
-WORKDIR /go/src/github.com/syedomair/micro-api/subscrp-svc
+WORKDIR /go/src/github.com/syedomair/micro-api-k/subscrp-svc
 
 COPY src .
 
@@ -16,7 +16,7 @@ RUN apk --no-cache add ca-certificates
 
 RUN mkdir /app
 WORKDIR /app
-COPY --from=builder /go/src/github.com/syedomair/micro-api/subscrp-svc/subscrp-svc /subscrp-svc
+COPY --from=builder /go/src/github.com/syedomair/micro-api-k/subscrp-svc/subscrp-svc /subscrp-svc
 
 EXPOSE 8180
 

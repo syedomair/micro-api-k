@@ -7,7 +7,7 @@ import (
 	"time"
 
 	nats "github.com/nats-io/go-nats"
-	common "github.com/syedomair/micro-api/common"
+	common "github.com/syedomair/micro-api-k/common"
 )
 
 func main() {

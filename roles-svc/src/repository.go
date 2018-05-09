@@ -6,7 +6,7 @@ import (
 	log "github.com/go-kit/kit/log"
 	"github.com/jinzhu/gorm"
 	uuid "github.com/satori/go.uuid"
-	pb "github.com/syedomair/micro-api/roles-svc/proto"
+	pb "github.com/syedomair/micro-api-k/roles-svc/proto"
 )
 
 type Repository interface {

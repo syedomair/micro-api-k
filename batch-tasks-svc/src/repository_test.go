@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/syedomair/api_micro/common"
-	testdata "github.com/syedomair/micro-api/testdata"
+	testdata "github.com/syedomair/micro-api-k/testdata"
 )
 
 func TestBatchTaskDB(t *testing.T) {

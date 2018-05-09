@@ -11,8 +11,8 @@ import (
 
 	"github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
-	common "github.com/syedomair/micro-api/common"
-	pb "github.com/syedomair/micro-api/public-svc/proto"
+	common "github.com/syedomair/micro-api-k/common"
+	pb "github.com/syedomair/micro-api-k/public-svc/proto"
 )
 
 type Env struct {

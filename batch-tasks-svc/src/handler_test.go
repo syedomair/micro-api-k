@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/syedomair/micro-api/batch-tasks-svc/proto"
-	"github.com/syedomair/micro-api/common"
-	testdata "github.com/syedomair/micro-api/testdata"
+	pb "github.com/syedomair/micro-api-k/batch-tasks-svc/proto"
+	"github.com/syedomair/micro-api-k/common"
+	testdata "github.com/syedomair/micro-api-k/testdata"
 )
 
 func TestGetAllUser(t *testing.T) {

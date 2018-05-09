@@ -4,7 +4,7 @@ import (
 	log "github.com/go-kit/kit/log"
 	"github.com/gogo/protobuf/proto"
 	nats "github.com/nats-io/go-nats"
-	pb "github.com/syedomair/micro-api/batch-tasks-svc/proto"
+	pb "github.com/syedomair/micro-api-k/batch-tasks-svc/proto"
 )
 
 type Nats interface {

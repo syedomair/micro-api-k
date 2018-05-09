@@ -8,8 +8,8 @@ import (
 	log "github.com/go-kit/kit/log"
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
-	"github.com/syedomair/micro-api/common"
-	pb "github.com/syedomair/micro-api/users-svc/proto"
+	"github.com/syedomair/micro-api-k/common"
+	pb "github.com/syedomair/micro-api-k/users-svc/proto"
 )
 
 type Env struct {

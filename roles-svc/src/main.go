@@ -7,8 +7,8 @@ import (
 	"net/http"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	common "github.com/syedomair/micro-api/common"
-	pb "github.com/syedomair/micro-api/roles-svc/proto"
+	common "github.com/syedomair/micro-api-k/common"
+	pb "github.com/syedomair/micro-api-k/roles-svc/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

@@ -14,9 +14,9 @@ import (
 	log "github.com/go-kit/kit/log"
 	"github.com/gogo/protobuf/proto"
 	nats "github.com/nats-io/go-nats"
-	pb "github.com/syedomair/micro-api/batch-tasks-svc/proto"
-	pbp "github.com/syedomair/micro-api/public-svc/proto"
-	pbu "github.com/syedomair/micro-api/users-svc/proto"
+	pb "github.com/syedomair/micro-api-k/batch-tasks-svc/proto"
+	pbp "github.com/syedomair/micro-api-k/public-svc/proto"
+	pbu "github.com/syedomair/micro-api-k/users-svc/proto"
 )
 
 type Env struct {

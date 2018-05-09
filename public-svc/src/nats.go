@@ -5,7 +5,7 @@ import (
 	"github.com/gogo/protobuf/proto"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	nats "github.com/nats-io/go-nats"
-	pb "github.com/syedomair/micro-api/public-svc/proto"
+	pb "github.com/syedomair/micro-api-k/public-svc/proto"
 )
 
 type Nats interface {

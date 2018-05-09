@@ -5,9 +5,9 @@ import (
 
 	log "github.com/go-kit/kit/log"
 	"github.com/jinzhu/gorm"
-	pb "github.com/syedomair/micro-api/batch-tasks-svc/proto"
-	common "github.com/syedomair/micro-api/common"
-	pbu "github.com/syedomair/micro-api/users-svc/proto"
+	pb "github.com/syedomair/micro-api-k/batch-tasks-svc/proto"
+	common "github.com/syedomair/micro-api-k/common"
+	pbu "github.com/syedomair/micro-api-k/users-svc/proto"
 )
 
 type Repository interface {

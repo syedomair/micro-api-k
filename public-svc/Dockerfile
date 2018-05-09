@@ -1,6 +1,6 @@
 FROM golang:1.9.0 as builder
 
-WORKDIR /go/src/github.com/syedomair/micro-api/public-svc
+WORKDIR /go/src/github.com/syedomair/micro-api-k/public-svc
 
 COPY src .
 COPY proto proto
@@ -16,7 +16,7 @@ RUN apk --no-cache add ca-certificates
 
 RUN mkdir /app
 WORKDIR /app
-COPY --from=builder /go/src/github.com/syedomair/micro-api/public-svc/public-svc /public-svc 
+COPY --from=builder /go/src/github.com/syedomair/micro-api-k/public-svc/public-svc /public-svc 
 
 EXPOSE 8180
 

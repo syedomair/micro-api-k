@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	common "github.com/syedomair/micro-api/common"
-	pb "github.com/syedomair/micro-api/public-svc/proto"
-	testdata "github.com/syedomair/micro-api/testdata"
+	common "github.com/syedomair/micro-api-k/common"
+	pb "github.com/syedomair/micro-api-k/public-svc/proto"
+	testdata "github.com/syedomair/micro-api-k/testdata"
 	"google.golang.org/grpc/metadata"
 )
 
